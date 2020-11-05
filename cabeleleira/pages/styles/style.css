@@ -1,0 +1,295 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter {
+    display              : block;
+    padding              : 10px 10px;
+    margin               : 0 5px;
+    color                : #ffffff;
+    background-color     : #000000;
+    border-radius        : 50%;
+    font-size            : 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius   : 50%;
+    -ms-border-radius    : 50%;
+    -o-border-radius     : 50%;
+}
+
+.fa-facebook-f {
+    padding: 10px 15px;
+}
+
+#redes-sociais-hide a>i {
+    font-size: 17pt !important;
+}
+
+.nav-link02 {
+    color  : #303030;
+    padding: .5rem 1rem;
+}
+
+.nav-link02:hover {
+    color: #303030;
+}
+
+.title-site {
+    font-size  : 35px;
+    font-weight: 400;
+}
+
+/* SEÇÃO SERVIÇOS */
+.space-section {
+    margin-top: 90px;
+}
+
+.div-servicos {
+    width     : auto;
+    height    : 310px;
+    margin    : 2px 5px;
+    text-align: center;
+    display   : grid;
+}
+
+.underscore-black {
+    width     : 20%;
+    border-top: 3px solid #000000 !important;
+}
+
+.underscore-white {
+    width     : 20%;
+    border-top: 3px solid #ffffff !important;
+}
+
+/* BACKGROUND */
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-servicos-bege {
+    color           : #000000;
+    background-color: #DAC780;
+}
+
+.bg-servicos-preto {
+    color           : #ffffff;
+    background-color: #000000;
+}
+
+.bg-servicos-branco {
+    color           : #000000;
+    background-color: #ffffff;
+}
+
+/* SEÇÃO DEPOIMENTOS */
+div#cTestimonyInner .carousel-inner,
+.carousel-item {
+    height          : inherit !important;
+    background-color: #ffffff !important;
+}
+
+div#cTestimonyInner>.text {
+    font-style: italic;
+}
+
+#cTestimonyInner img {
+    width: 75px;
+}
+
+.adjust-arrow-dep {
+    filter        : invert(1);
+    -webkit-filter: invert(1);
+    margin-bottom : 20px;
+}
+
+.aspas-1 {
+    display          : block;
+    float            : left;
+    transform        : rotate(180deg);
+    width            : 4%;
+    height           : auto !important;
+    filter           : contrast(0.01);
+    -webkit-transform: rotate(180deg);
+    -moz-transform   : rotate(180deg);
+    -ms-transform    : rotate(180deg);
+    -o-transform     : rotate(180deg);
+    -webkit-filter   : contrast(0.01);
+}
+
+.aspas-2 {
+    display       : block;
+    float         : right;
+    width         : 4%;
+    height        : auto !important;
+    filter        : contrast(0.01);
+    -webkit-filter: contrast(0.01);
+}
+
+.text {
+    color      : #000000;
+    font-size  : 13px;
+    font-weight: 500;
+}
+
+/* SEÇÃO CONTATO */
+#contato input {
+    color                : #ffffff;
+    border               : 1px solid #ffffff;
+    background-color     : transparent;
+    border-radius        : 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius   : 0px;
+    -ms-border-radius    : 0px;
+    -o-border-radius     : 0px;
+}
+
+#contato ::placeholder {
+    color: #ffffff;
+}
+
+#contato textarea {
+    color                : #ffffff;
+    border               : 1px solid #ffffff;
+    background-color     : transparent;
+    border-radius        : 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius   : 0px;
+    -ms-border-radius    : 0px;
+    -o-border-radius     : 0px;
+}
+
+.eni-btn-contato {
+    color                : #303030 !important;
+    background-color     : #ffffff !important;
+    border               : 3px double #303030 !important;
+    border-radius        : 0px !important;
+    padding-top          : 5px !important;
+    padding-left         : 25px !important;
+    padding-right        : 25px !important;
+    /*color              : #303030 !important;
+    background-color     : #ffffff !important;
+    border-color         : #303030 !important;
+    border               : 3px double #ffffff !important;
+    */
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius   : 0px !important;
+    -ms-border-radius    : 0px !important;
+    -o-border-radius     : 0px !important;
+    -webkit-border-radius: 0px !important;
+}
+
+.eni-btn-contato:hover {
+    border            : 3px double #ffffff !important;
+    color             : #ffffff !important;
+    background-color  : transparent !important;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition        : all 0.2s ease-out 0s;
+    -moz-transition   : all 0.2s ease-out 0s;
+    -ms-transition    : all 0.2s ease-out 0s;
+    -o-transition     : all 0.2s ease-out 0s;
+}
+
+/* SEÇÃO FOOTER */
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter {
+    display              : block;
+    padding              : 10px 10px;
+    margin               : 0 5px;
+    color                : #000000;
+    background-color     : #ffffff;
+    border-radius        : 50%;
+    font-size            : 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius   : 50%;
+    -ms-border-radius    : 50%;
+    -o-border-radius     : 50%;
+}
+
+.fa-facebook-f {
+    padding: 10px 15px;
+}
+
+#redes-sociais-footer a>i {
+    font-size: 17px !important;
+}
+
+.nav-link02 {
+    color  : #ffffff;
+    padding: .5rem 1rem;
+}
+
+.nav-link02:hover {
+    color: #ffffff;
+}
+
+.txt-corp {
+    font-size  : 15px;
+    font-weight: 400;
+}
+
+@media(max-width: 578px) {
+    .img-logo {
+        width    : 100%;
+        max-width: 200px;
+    }
+
+    /* SEÇÃO SERVIÇOS */
+    .bg-face {
+        background           : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size      : cover;
+        background-position-y: -70px;
+    }
+
+    .bg-make {
+        background           : url('../../images/servicos/make.jpg') no-repeat;
+        background-size      : cover;
+        background-position-y: -70px;
+    }
+
+    .bg-hair {
+        background           : url('../../images/servicos/hair.jpeg') no-repeat;
+        background-size      : cover;
+        background-position-y: -70px;
+    }
+
+    .bg-nails {
+        background           : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size      : cover;
+        background-position-y: -70px;
+    }
+
+    /* SEÇÃO DEPOIMENTOS */
+
+    .vh-box-dep {
+        height: 30vh !important;
+    }
+
+    .aspas-1 {
+        display          : block;
+        float            : left;
+        transform        : rotate(180deg);
+        width            : 4% !important;
+        height           : auto !important;
+        filter           : contrast(0.01);
+        -webkit-transform: rotate(180deg);
+        -moz-transform   : rotate(180deg);
+        -ms-transform    : rotate(180deg);
+        -o-transform     : rotate(180deg);
+        -webkit-filter   : contrast(0.01);
+    }
+
+    .aspas-2 {
+        display       : block;
+        float         : right;
+        width         : 4% !important;
+        height        : auto !important;
+        filter        : contrast(0.01);
+        -webkit-filter: contrast(0.01);
+    }
+}
