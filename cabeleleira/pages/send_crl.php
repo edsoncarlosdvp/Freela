@@ -23,6 +23,9 @@
    $ip        = $_SERVER['REMOTE_ADDR'];
    $navegador = $_SERVER['HTTP_USER_AGENT'];
 
+   $files = $_FILES["file"];
+   $file = $files;
+
    try {
        // Inicia a classe PHPMailer
        $mail = new PHPMailer(true);
@@ -49,7 +52,7 @@
 
       // Define os destinatário(s)
        // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-       $mail->AddAddress("edsoncarlos@equipenovainfo.com.br");
+       $mail->AddAddress("contato@equipenovainfo.com.br");
        //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
       //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
       // Define os dados técnicos da Mensagem
@@ -58,28 +61,33 @@
       //  $mail->CharSet = 'iso-8859-1'; // Charset da mensagem (opcional)
       // Define a mensagem (Texto e Assunto)
       // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-      //$mail->Subject = $assunto; // Assunto da mensagem
+      $mail->Subject = $assunto; // Assunto da mensagem
       //Read an HTML message body from an external file, convert referenced images to embedded,
       //convert HTML into a basic plain-text alternative body
       // $mail->msgHTML(FILE_USE_require_once_ATH('contents.html', 1));
       // CORPO DO EMAIL
       // FORMATO HTML
-      $mail->Body = "<h4><p>Nome: {$nome}.<br><br>Email: {$eemail}<br><br>Telefone: {$telefone}.<br><br>Mensagem: {$mensagem}</p><p><h6><br>IP do remetente: {$ip}<br>Navegador do remetente: {$navegador}</h6></p></h4>";
+      $mail->Body = "<h4><p>Nome: {$nome}.<br><br>Email: {$eemail}<br><br>Telefone: {$telefone}.<br><br>Cidade: {$cidade}.<br><br>Assunto: {$assunto}.<br><br>Mensagem: {$mensagem}</p><p><h6><br>IP do remetente: {$ip}<br>Navegador do remetente: {$navegador}</h6></p></h4>";
 
        // FORMATO SEM HTML
-       $mail->AltBody = "Nome: {$nome}" . "\n" . "\n" . "Email: {$eemail}" . "\n" . "Telefone: {$telefone}" . "\n" . "IP do remetente: {$ip}" . "\n" . "Navegador do remetente: {$navegador}";
+       $mail->AltBody = "Nome: {$nome}" . "\n" . "\n" . "Email: {$eemail}" . "\n" . "Telefone: {$telefone}" . "Cidade: {$cidade}" . "\n" . "Mensagem: {$mensagem}" . "\n" . "IP do remetente: {$ip}" . "\n" . "Navegador do remetente: {$navegador}";
+       // Define os anexos (opcional)
+      // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      $mail->AddAttachment($file['tmp_name'], $file['name'], 'base64');  // Insere um anexo
+      //print_r($_FILES);echo"<br>";print_r($files);
       
-       // Envia o e-mail
+      // Envia o e-mail
        $mail->Send();
        // Limpa os destinatários e os anexos
        $mail->ClearAllRecipients();
+       $mail->ClearAttachments();
        // FIM DO ENVIO DE EMAIL?>
       <script>
          $(document).ready(function(){
             Swal.fire({
             position: 'center',
             icon: 'success',
-            title: '<?php echo $nome.". <br>"; ?> <?php echo "Enviada com sucesso!"; ?>',
+            title: '<?php echo $nome.". <br>"; ?> <?php echo "Agradecemos o contato e o envio do seu curriculo. A análise será realizada e entraremos em contato caso exista a vaga correspondente às suas habilidades profissionais. Caso não seja convocado, o seu currículo estará salvo."; ?>',
             showConfirmButton: false,
             timer: 6000
             })
@@ -104,3 +112,4 @@
    }
 ?>
 </script>
+<meta http-equiv=refresh content=6;URL=index.php>

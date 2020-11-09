@@ -51,6 +51,33 @@ body {
     padding: 10px 15px;
 }
 
+.fa-facebook-f:hover {
+    color             : #DAC780 !important;
+    transition        : all 0.3s 0.2s;
+    -webkit-transition: all 0.3s 0.2s;
+    -moz-transition   : all 0.3s 0.2s;
+    -ms-transition    : all 0.3s 0.2s;
+    -o-transition     : all 0.3s 0.2s;
+}
+
+.fa-instagram:hover {
+    color             : #DAC780 !important;
+    transition        : all 0.3s 0.2s;
+    -webkit-transition: all 0.3s 0.2s;
+    -moz-transition   : all 0.3s 0.2s;
+    -ms-transition    : all 0.3s 0.2s;
+    -o-transition     : all 0.3s 0.2s;
+}
+
+.fa-twitter:hover {
+    color             : #DAC780 !important;
+    transition        : all 0.3s 0.2s;
+    -webkit-transition: all 0.3s 0.2s;
+    -moz-transition   : all 0.3s 0.2s;
+    -ms-transition    : all 0.3s 0.2s;
+    -o-transition     : all 0.3s 0.2s;
+}
+
 .icon-social-top {
     color           : #ffffff !important;
     background-color: #000000 !important;
@@ -58,6 +85,19 @@ body {
 
 #redes-sociais-hide a>i {
     font-size: 17pt !important;
+}
+
+#redes-sociais-right a>i {
+    font-size: 17pt !important;
+}
+
+#redes-sociais-right .fa-facebook-f {
+    color: #000000;
+}
+
+.width-menu {
+    padding-left : 150px !important;
+    padding-right: 150px !important;
 }
 
 a {
@@ -99,6 +139,11 @@ a:hover {
 
 .nav-link03 {
     color: #DAC780 !important;
+}
+
+.img-logo {
+    width    : 97px;
+    max-width: 200px;
 }
 
 .link-whatsapp {
@@ -143,6 +188,45 @@ a:hover {
 .title-site {
     font-size  : 35px;
     font-weight: 400;
+}
+
+/* SEÇÃO CAROUSEL */
+.bg-img01-carousel {
+    background         : url('../../images/carousel/banner1.jpg') fixed no-repeat;
+    background-position: top;
+    background-size    : 100% auto;
+    min-height         : 90vh;
+}
+
+.bg-img02-carousel {
+    background           : url('../../images/carousel/banner2.jpg') fixed no-repeat;
+    background-position-y: -220px;
+    background-size      : 100%;
+    min-height           : 90vh;
+}
+
+.bg-img03-carousel {
+    background           : url('../../images/carousel/banner3.jpg') fixed no-repeat;
+    background-position-y: -65px;
+    background-size      : 100% auto;
+    min-height           : 90vh;
+}
+
+/* .carousel-control-prev-icon {
+    background-image: url('../../images/carousel/angle-left-solid.svg') !important;
+    background-size : 18px;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../../images/carousel/angle-right-solid.svg') !important;
+    background-size : 18px;
+} */
+
+.custom-caption {
+    left            : 0;
+    right           : 0;
+    width           : 100%;
+    background-color: #0000007a;
 }
 
 /* SEÇÃO SERVIÇOS */
@@ -195,11 +279,37 @@ section {
 .bg-especial {
     background         : url('../../images/background/especiais.webp') fixed no-repeat;
     background-position: center;
+    height             : 90vh;
 }
 
 .bg-contato {
     background         : url('../../images/background/contato.webp') fixed no-repeat;
     background-position: center;
+}
+
+/* SEÇÃO SERVIÇOS */
+.bg-face {
+    background           : url('../../images/servicos/facial.jpeg') no-repeat;
+    background-size      : cover;
+    background-position-y: -30px;
+}
+
+.bg-make {
+    background           : url('../../images/servicos/make.jpg') no-repeat;
+    background-size      : cover;
+    background-position-y: -30px;
+}
+
+.bg-hair {
+    background           : url('../../images/servicos/hair.jpeg') no-repeat;
+    background-size      : cover;
+    background-position-y: -30px;
+}
+
+.bg-nails {
+    background           : url('../../images/servicos/nails.jpg') no-repeat;
+    background-size      : cover;
+    background-position-y: -30px;
 }
 
 /* SEÇÃO ESPECIAL */
@@ -230,7 +340,7 @@ div#cTestimonyInner>.text {
     margin-bottom : 20px;
 }
 
-.aspas-1 {
+/* .aspas-1 {
     display          : block;
     float            : left;
     transform        : rotate(180deg);
@@ -251,6 +361,12 @@ div#cTestimonyInner>.text {
     height        : auto !important;
     filter        : contrast(0.01);
     -webkit-filter: contrast(0.01);
+} */
+
+.description-depoimentos {
+    display     : block;
+    margin-left : 30px;
+    margin-right: 30px;
 }
 
 .text {
@@ -356,7 +472,48 @@ div#cTestimonyInner>.text {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1400px) {
+
+    /* NAVBAR */
+    .width-menu {
+        padding-left : 150px !important;
+        padding-right: 150px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /* NAVBAR */
+    .width-menu {
+        padding-left : 40px !important;
+        padding-right: 40px !important;
+    }
+
+    /* SEÇÃO SERVIÇOS */
+    .bg-face {
+        background           : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size      : cover;
+        background-position-y: -30px;
+    }
+
+    .bg-make {
+        background           : url('../../images/servicos/make.jpg') no-repeat;
+        background-size      : cover;
+        background-position-y: -30px;
+    }
+
+    .bg-hair {
+        background           : url('../../images/servicos/hair.jpeg') no-repeat;
+        background-size      : cover;
+        background-position-y: -30px;
+    }
+
+    .bg-nails {
+        background           : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size      : cover;
+        background-position-y: -30px;
+    }
+}
 
 
 @media (max-width: 992px) {
@@ -423,6 +580,15 @@ div#cTestimonyInner>.text {
     .txt-corp {
         font-size  : 12px;
         font-weight: 400;
+    }
+}
+
+@media (max-width: 892px) {
+
+    /* NAVBAR */
+    .width-menu {
+        padding-left : 2px !important;
+        padding-right: 2px !important;
     }
 }
 
