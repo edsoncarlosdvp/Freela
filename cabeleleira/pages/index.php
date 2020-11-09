@@ -392,127 +392,127 @@
 
                     </div>
 
-                    </div>
+                </div>
                     
-                    <form id="form-contact">
-                        <div class="row justify-content-center border-contact-form">
-                            <div class="form-row form-group col-12 col-sm-10 col-md-10">
-                            <input type="text" class="form-control" id="nome" name="nome"
-                                placeholder="Nome" required>
-                            </div>
-                            <div class="form-row form-group col-12 col-sm-10 col-md-10">
-                            <input type="eemail" class="form-control" id="eemail" name="eemail"
-                                placeholder="Email" required>
-                            </div>
-                            <div class="form-row form-group col-12 col-sm-10 col-md-10">
-                            <input type="text" class="form-control" id="telefone" name="telefone"
-                                placeholder="Telefone">
-                            </div>
-                            <div class="form-row form-group col-12 col-sm-10 col-md-10">
-                                <textarea class="form-control" rows="8" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
-                            </div>
-
-                            <div class="form-row form-group mb-1 col-12 justify-content-center wow fadeIn">
-                            <button class="btn eni-btn-contato" name="enviar" id="btn-send" type="submit">Enviar</button>
-                            </div>
+                <form id="form-contact">
+                    <div class="row justify-content-center border-contact-form">
+                        <div class="form-row form-group col-12 col-sm-10 col-md-10">
+                        <input type="text" class="form-control" id="nome" name="nome"
+                            placeholder="Nome" required>
                         </div>
-                    </form>
-                    <div id="div-links-contato" class="d-flex flex-column flex-lg-row flex-wrap justify-content-center align-items-center my-1 text-center text-white">
-                        
-                        <a class="nav-link cor-link02 wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <a class="nav-link cor-link02 wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
-                        <br>
-                        <a href="./local.html" target="_blank" class="d-lg-none nav-link03 text-uppercase mt-n3 mb-2">como chegar ></a>
+                        <div class="form-row form-group col-12 col-sm-10 col-md-10">
+                        <input type="eemail" class="form-control" id="eemail" name="eemail"
+                            placeholder="Email" required>
+                        </div>
+                        <div class="form-row form-group col-12 col-sm-10 col-md-10">
+                        <input type="text" class="form-control" id="telefone" name="telefone"
+                            placeholder="Telefone">
+                        </div>
+                        <div class="form-row form-group col-12 col-sm-10 col-md-10">
+                            <textarea class="form-control" rows="8" id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+                        </div>
 
+                        <div class="form-row form-group mb-1 col-12 justify-content-center wow fadeIn">
+                        <button class="btn eni-btn-contato" name="enviar" id="btn-send" type="submit">Enviar</button>
+                        </div>
                     </div>
+                </form>
+                <div id="div-links-contato" class="d-flex flex-column flex-lg-row flex-wrap justify-content-center align-items-center my-1 text-center text-white">
+                    
+                    <a class="nav-link cor-link02 wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <a class="nav-link cor-link02 wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
+                    <br>
+                    <a href="./local.html" target="_blank" class="d-lg-none nav-link03 text-uppercase mt-n3 mb-2">como chegar ></a>
 
                 </div>
 
-                <!-- LOCALIZAÇÃO -->
-
-                <div class="d-none d-lg-block col-12 col-md-6">
-
-                    <div class="d-flex justify-content-center col-12">
-
-                        <div class="row d-flex justify-content-center my-3">
-                            <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
-                            <h1 class="title-style01 w-100 text-center text-white wow fadeInUp" data-wow-delay="0.5s">Localização</h1>
-                            <div class="col-12 mx-0 text-center py-3">
-                                <span class="txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
-                                    Av. Dom Pedro II, 169 - Centro Av. Dom Pedro II, 169 - Centro, Barueri - SP, 06401-060
-                                </span>
-                                <br>
-                                <span class="d-lg-none txt-padrao text-white">
-                                    <a class="nav-link wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <span class="wow fadeInLeft d-none d-md-block">|</span> <a class="nav-link wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
-                                </span>
-
-                                <h5 class="d-none w-100 mt-3 text-center text-uppercase text-white font-weight-normal wow fadeInUp" data-wow-delay="0.5s">horário de funcionamento</h5>
-
-                                <span class="d-none txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
-                                    <i class="far fa-clock"></i> Seg - Sex: 7:00 - 22:00
-                                    <br>
-                                    <i class="far fa-clock"></i> Sáb: 8:00 - 22:00
-                                </span>
-
-                            </div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.563844733197!2d-46.878678385022965!3d-23.512214384707253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03dbd6040777%3A0x6f6d03847532342b!2sAv.%20Dom%20Pedro%20II%2C%20169%20-%20Centro%2C%20Barueri%20-%20SP%2C%2006401-060!5e0!3m2!1spt-BR!2sbr!4v1604682813002!50m2!1spt-BR!2sbr" class="mt-4" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="wow fadeInUp" data-wow-delay="0.5s"></iframe>
-                        </div>
-
-                    </div>
-
-                </div>
-                
             </div>
 
-            <!-- LINK WHATSAPP -->
-            <a href="https://wa.me/5511973454151" class="link-whatsapp">
-                <img src="../images/logo-zap.png" alt="" class="logo-zap">
+            <!-- LOCALIZAÇÃO -->
+
+            <div class="d-none d-lg-block col-12 col-md-6">
+
+                <div class="d-flex justify-content-center col-12">
+
+                    <div class="row d-flex justify-content-center my-3">
+                        <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
+                        <h1 class="title-style01 w-100 text-center text-white wow fadeInUp" data-wow-delay="0.5s">Localização</h1>
+                        <div class="col-12 mx-0 text-center py-3">
+                            <span class="txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
+                                Av. Dom Pedro II, 169 - Centro Av. Dom Pedro II, 169 - Centro, Barueri - SP, 06401-060
+                            </span>
+                            <br>
+                            <span class="d-lg-none txt-padrao text-white">
+                                <a class="nav-link wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <span class="wow fadeInLeft d-none d-md-block">|</span> <a class="nav-link wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
+                            </span>
+
+                            <h5 class="d-none w-100 mt-3 text-center text-uppercase text-white font-weight-normal wow fadeInUp" data-wow-delay="0.5s">horário de funcionamento</h5>
+
+                            <span class="d-none txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
+                                <i class="far fa-clock"></i> Seg - Sex: 7:00 - 22:00
+                                <br>
+                                <i class="far fa-clock"></i> Sáb: 8:00 - 22:00
+                            </span>
+
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.563844733197!2d-46.878678385022965!3d-23.512214384707253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03dbd6040777%3A0x6f6d03847532342b!2sAv.%20Dom%20Pedro%20II%2C%20169%20-%20Centro%2C%20Barueri%20-%20SP%2C%2006401-060!5e0!3m2!1spt-BR!2sbr!4v1604682813002!50m2!1spt-BR!2sbr" class="mt-4" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="wow fadeInUp" data-wow-delay="0.5s"></iframe>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+        <!-- LINK WHATSAPP -->
+        <a href="https://wa.me/5511973454151" class="link-whatsapp">
+            <img src="../images/logo-zap.png" alt="" class="logo-zap">
+        </a>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="footer" class="container-fluid bg-black mx-0 px-0">
+
+        <div class="mx-0 p-0 text-center wow fadeInUp" data-wow-delay="0.5s">
+        
+            <ul id="redes-sociais-hide" class="nav align-items-baseline justify-content-center d-lg-none">
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/stalloshair" target="_blank" class="nav-link02"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://instagram.com/stalloshair" target="_blank" class="nav-link02"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://twitter.com/stalloshair" target="_blank" class="nav-link02"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+
+            <span class="txt-corp text-white">Stallos Cabelereiros &copy; 2020.</span>
+            <br>
+            <a href="https://ollimpium.com.br/parceiros" target="_blank">
+                <span class="txt-corp text-white wow fadeInUp" data-wow-delay="0.5s">Desenvolvido por: Ollimpium Digital Marketing Agency.</span>
             </a>
 
-        </section>
+        </div>
 
-        <!-- FOOTER -->
+    </footer>
 
-        <footer id="footer" class="container-fluid bg-black mx-0 px-0">
+</div>
 
-            <div class="mx-0 p-0 text-center wow fadeInUp" data-wow-delay="0.5s">
-            
-                <ul id="redes-sociais-hide" class="nav align-items-baseline justify-content-center d-lg-none">
-                    <li class="nav-item">
-                        <a href="https://www.facebook.com/stalloshair" target="_blank" class="nav-link02"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://instagram.com/stalloshair" target="_blank" class="nav-link02"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://twitter.com/stalloshair" target="_blank" class="nav-link02"><i class="fab fa-twitter"></i></a>
-                    </li>
-                </ul>
-
-                <span class="txt-corp text-white">Stallos Cabelereiros &copy; 2020.</span>
-                <br>
-                <a href="https://ollimpium.com.br/parceiros" target="_blank">
-                    <span class="txt-corp text-white wow fadeInUp" data-wow-delay="0.5s">Desenvolvido por: Ollimpium Digital Marketing Agency.</span>
-                </a>
-
-            </div>
-
-        </footer>
-
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../assets/js/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-        <script src="../assets/js/essential.js"></script>
-        <script src="../assets/js/sweetalert2@9.js"></script>
-        <script src="../assets/js/wow.min.js"></script>
-        <script src="../assets/js/wow-instance.js"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../assets/js/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="../assets/js/essential.js"></script>
+<script src="../assets/js/sweetalert2@9.js"></script>
+<script src="../assets/js/wow.min.js"></script>
+<script src="../assets/js/wow-instance.js"></script>
 </body>
 
 </html>
