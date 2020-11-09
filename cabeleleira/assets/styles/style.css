@@ -212,16 +212,6 @@ a:hover {
     min-height           : 90vh;
 }
 
-/* .carousel-control-prev-icon {
-    background-image: url('../../images/carousel/angle-left-solid.svg') !important;
-    background-size : 18px;
-}
-
-.carousel-control-next-icon {
-    background-image: url('../../images/carousel/angle-right-solid.svg') !important;
-    background-size : 18px;
-} */
-
 .custom-caption {
     left            : 0;
     right           : 0;
@@ -339,29 +329,6 @@ div#cTestimonyInner>.text {
     -webkit-filter: invert(1);
     margin-bottom : 20px;
 }
-
-/* .aspas-1 {
-    display          : block;
-    float            : left;
-    transform        : rotate(180deg);
-    width            : 4%;
-    height           : auto !important;
-    filter           : contrast(0.01);
-    -webkit-transform: rotate(180deg);
-    -moz-transform   : rotate(180deg);
-    -ms-transform    : rotate(180deg);
-    -o-transform     : rotate(180deg);
-    -webkit-filter   : contrast(0.01);
-}
-
-.aspas-2 {
-    display       : block;
-    float         : right;
-    width         : 4%;
-    height        : auto !important;
-    filter        : contrast(0.01);
-    -webkit-filter: contrast(0.01);
-} */
 
 .description-depoimentos {
     display     : block;
@@ -553,29 +520,6 @@ div#cTestimonyInner>.text {
         height: 30vh !important;
     }
 
-    .aspas-1 {
-        display          : block;
-        float            : left;
-        transform        : rotate(180deg);
-        width            : 4% !important;
-        height           : auto !important;
-        filter           : contrast(0.01);
-        -webkit-transform: rotate(180deg);
-        -moz-transform   : rotate(180deg);
-        -ms-transform    : rotate(180deg);
-        -o-transform     : rotate(180deg);
-        -webkit-filter   : contrast(0.01);
-    }
-
-    .aspas-2 {
-        display       : block;
-        float         : right;
-        width         : 4% !important;
-        height        : auto !important;
-        filter        : contrast(0.01);
-        -webkit-filter: contrast(0.01);
-    }
-
     /* FOOTER */
     .txt-corp {
         font-size  : 12px;
@@ -627,29 +571,6 @@ div#cTestimonyInner>.text {
 
     .vh-box-dep {
         height: 30vh !important;
-    }
-
-    .aspas-1 {
-        display          : block;
-        float            : left;
-        transform        : rotate(180deg);
-        width            : 4% !important;
-        height           : auto !important;
-        filter           : contrast(0.01);
-        -webkit-transform: rotate(180deg);
-        -moz-transform   : rotate(180deg);
-        -ms-transform    : rotate(180deg);
-        -o-transform     : rotate(180deg);
-        -webkit-filter   : contrast(0.01);
-    }
-
-    .aspas-2 {
-        display       : block;
-        float         : right;
-        width         : 4% !important;
-        height        : auto !important;
-        filter        : contrast(0.01);
-        -webkit-filter: contrast(0.01);
     }
 
     /* FOOTER */
@@ -705,33 +626,18 @@ div#cTestimonyInner>.text {
         display: none;
     }
 
+    .text-caption-nota {
+        display    : block;
+        width      : 100%;
+        color      : #d2d2d2 !important;
+        font-size  : 14px !important;
+        font-weight: 300 !important;
+    }
+
     /* SEÇÃO DEPOIMENTOS */
 
     .vh-box-dep {
         height: 30vh !important;
-    }
-
-    .aspas-1 {
-        display          : block;
-        float            : left;
-        transform        : rotate(180deg);
-        width            : 4% !important;
-        height           : auto !important;
-        filter           : contrast(0.01);
-        -webkit-transform: rotate(180deg);
-        -moz-transform   : rotate(180deg);
-        -ms-transform    : rotate(180deg);
-        -o-transform     : rotate(180deg);
-        -webkit-filter   : contrast(0.01);
-    }
-
-    .aspas-2 {
-        display       : block;
-        float         : right;
-        width         : 4% !important;
-        height        : auto !important;
-        filter        : contrast(0.01);
-        -webkit-filter: contrast(0.01);
     }
 
     /* FOOTER */

@@ -47,3 +47,35 @@ $(document).ready(function ($) {
         $('html,body').animate({ scrollTop: 0 }, 1000);
     })
 });
+
+/* POST FORM SWEETARLET */
+$(function () {
+    $("#form-contact").submit(function () {
+        $.ajax({
+            url: './send_mail.php',
+            type: 'POST',
+            data: $('#form-contact').serialize(),
+            dataType: 'html',
+            success: function (data) {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Sua mensagem foi enviada com sucesso! Agradecemos o contato e retornaremos o mais breve possível.',
+                    showConfirmButton: false,
+                    timer: 3500
+                })
+            },
+            error: function (xhr) {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Sua mensagem não pôde ser enviada! Tente novamente agora ou mais tarde.',
+                    showConfirmButton: false,
+                    timer: 3500
+                })
+            }
+        })
+        this.reset()
+        return false
+    })
+})

@@ -16,11 +16,25 @@
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+    <!-- SEO -->
+    <title>Stallos Cabelereiros</title>
+    <meta name="description" content="Fundanda em 1998, a Stallos Cabeleireiros tem como principio trazer o auto estima para aqueles que necessitam e proporcionar o melhor atendimento possível. Somos um studio de beleza renomado com excelente qualidade de atendimento. Reconhecido pelo prêmio em Tendências de Academias internacionais como Studio Llongueras/Tony & Guy / Pivot Point.
+    Temos os serviços de cabeleireiros, avaliação visagista, manicure, colorimetria, terapia capilar, pedicure, depilação, alongamentos, estética em geral e dia da Noiva.">
+    <meta http-equiv="cache-control"   content="no-cache" />
+    <meta http-equiv="pragma"   content="no-cache" /> 
+    <meta name="keywords" content="Ollimpium, Ollimpium Agência: Agência de Marketing Ollimpium, Stallos, Salão Stallos, Cabeleireiro barueri, cabeleireira barueri, barueri, salão barueri, salão em barueri, Visagismo, visagismo barueri, dia da noiva, dia da noiva barueri, avaliação visagista, manicure, colorimetria, terapia capilar, pedicure, depilação, alongamentos, estética em geral e dia da Noiva.">
+    <meta name="author" content="Ollimpium Digital Marketing Agency">
+    
+    <meta name="copyright" content="© Stallos Cabelereiros" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="follow" />
+
     <link rel="shortcut icon" href="../images/favicon.png"/>
     <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/animate.css">
     <link rel="stylesheet" href="../assets/styles/sweetalert2.min.css">
 
-    <title>Stallos Cabelereiros</title>
 
 </head>
 
@@ -137,35 +151,35 @@
 
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around">
 
-                    <hr class="underscore-black mx-auto">
-                    <h2 class="text-uppercase">estética</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase">agende já ></a>
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">estética</h2>
+                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
 
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-face mx-lg-0"></div>
                 
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-preto mx-lg-0 d-flex flex-column justify-content-around">
                     
-                    <hr class="underscore-white mx-auto">
-                    <h2 class="text-uppercase">maquiagem</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase">agende já ></a>
+                    <hr class="underscore-white mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">maquiagem</h2>
+                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-make mx-lg-0"></div>
 
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-branco mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
                     
-                    <hr class="underscore-black mx-auto">
-                    <h2 class="text-uppercase">cabelo</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase">agende já ></a>
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
+                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-flex flex-column d-lg-none"></div>
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
                     
-                    <hr class="underscore-black mx-auto">
-                    <h2 class="text-uppercase">unhas</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase">agende já ></a>
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
+                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
                 <div class="col-12 col-md-5 col-lg-3 div-servicos bg-nails mx-lg-0 d-flex flex-column d-lg-none"></div>
@@ -174,17 +188,17 @@
                 <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-none d-lg-block"></div>
                 <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-servicos-branco mx-lg-0 d-none flex-column justify-content-around d-lg-flex">
                     
-                    <hr class="underscore-black mx-auto">
-                    <h2 class="text-uppercase">cabelo</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase">agende já ></a>
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
+                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
                 <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-nails mx-lg-0 d-none d-lg-block"></div>
                 <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-none flex-column justify-content-around d-lg-flex">
                     
-                    <hr class="underscore-black mx-auto">
-                    <h2 class="text-uppercase">unhas</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase">agende já ></a>
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
+                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
 
@@ -194,21 +208,29 @@
 
         <!-- SEÇÃO ESPECIAL -->
 
-        <section id="especial" class="container-fluid align-content-center d-inline-flex bg-especial">
-            <div class="col-12 col-md-8 col-xl-6 mx-md-auto py-3 bg-servicos-preto">
+        <section id="especial" class="container-fluid align-content-center d-inline-flex bg-especial py-4">
+            <div class="col-12 col-md-8 col-xl-6 mx-md-auto bg-servicos-preto">
                     
-                <hr class="underscore-white mx-auto">
-                <h2 class="text-center title-style01">Especial de Verão</h2>
+                <hr class="underscore-white mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                <h2 class="text-center title-style01 wow fadeInUp" data-wow-delay="0.5s">Especial da Estação</h2>
                 
-                <table class="table text-white table-borderless">
+                <table class="table text-white table-borderless wow fadeIn" data-wow-delay="0.7">
                     
                     <tbody>
                         <tr>
-                            <th scope="row">Colorimetria</th>
+                            <th scope="row">Coloração</th>
                             <td>
                                 <span class="initial-price">À partir de </span> 
                                 <span class="initial-price-min-screen">*</span> 
                                 R$ 80,00
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Mechas</th>
+                            <td>
+                                <span class="initial-price">À partir de </span> 
+                                <span class="initial-price-min-screen">*</span> 
+                                R$ 350,00
                             </td>
                         </tr>
                         <tr>
@@ -216,39 +238,43 @@
                             <td>
                                 <span class="initial-price">À partir de </span> 
                                 <span class="initial-price-min-screen">*</span> 
-                                R$ 25,00
+                                R$ 45,00
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Cortes Masculino e Feminino</th>
-                            <td>
-                                <span class="initial-price">À partir de </span> 
+                            <th scope="row">Corte Masculino</th>
+                            <td><span class="initial-price">À partir de </span> 
                                 <span class="initial-price-min-screen">*</span> 
                                 R$ 35,00
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Dia da noiva</th>
-                            <td>A consultar</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Visagista e Estética</th>
+                            <th scope="row">Corte Feminino Modelado</th>
                             <td>
                                 <span class="initial-price">À partir de </span> 
                                 <span class="initial-price-min-screen">*</span> 
-                                R$ 70,00
+                                R$ 75,00
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Progressiva</th>
+                            <th scope="row">Escova</th>
                             <td>
                                 <span class="initial-price">À partir de </span> 
                                 <span class="initial-price-min-screen">*</span> 
-                                R$ 80,00
+                                R$ 45,00
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Hidratação</th>
+                            <td>
+                                <span class="initial-price">À partir de </span> 
+                                <span class="initial-price-min-screen">*</span> 
+                                R$ 50,00
                             </td>
                         </tr>
                     </tbody>
                     <caption class="text-caption">*Valores à partir</caption>
+                    <caption class="text-caption-nota">Confira todos nossos serviços através do Instagram e Whatsapp</caption>
                 </table>
                 
                 <a href="https://wa.me/5511973454151" class="d-block mx-auto text-uppercase text-center">agende já ></a>
@@ -263,8 +289,8 @@
 
             <div class="container-fluid">
                 <div class="w-100 text-center my-3 mx-0">
-                    <hr class="underscore-black mx-auto">
-                    <h1 class="title-style01 mb-n3 wow slideInUp">Depoimentos</h1>
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                    <h1 class="title-style01 mb-n3 wow fadeInUp" data-wow-delay="0.5s">Depoimentos</h1>
                 </div>
 
                 <div class="row justify-content-center">
@@ -343,21 +369,22 @@
                 <div class="col-12 col-lg-6">
                     
                     <div class="row d-flex justify-content-center my-3">
-                        <hr class="underscore-white">
-                        <h1 class="title-style01 w-100 text-center text-white">Faça uma visita</h1>
+                        <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
+                        <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
+                        <h1 class="title-style01 w-100 text-center text-white wow fadeInUp" data-wow-delay="0.5s">Faça uma visita</h1>
 
                         <div class="col-12 mx-0 text-center py-3">
-                        <span class="d-lg-none txt-padrao text-white">
+                        <span class="d-lg-none txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
                             Av. Dom Pedro II, 169 - Centro Av. Dom Pedro II, 169 - Centro, Barueri - SP, 06401-060
                         </span>
                         <br>
-                        <span class="d-lg-none txt-padrao text-white">
+                        <span class="d-lg-none txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
                             <a class="nav-link wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <span class="wow fadeInLeft d-none d-md-block">|</span> <a class="nav-link wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
                         </span>
 
-                        <h5 class="w-100 mt-3 mt-lg-n4 text-center text-white text-uppercase font-weight-normal">horário de funcionamento</h5>
+                        <h5 class="w-100 mt-3 mt-lg-n4 text-center text-white text-uppercase font-weight-normal wow fadeInUp" data-wow-delay="0.5s">horário de funcionamento</h5>
 
-                        <span class="txt-padrao text-white">
+                        <span class="txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
                             <i class="far fa-clock"></i> Seg - Sex: 7:00 - 22:00
                             <br>
                             <i class="far fa-clock"></i> Sáb: 8:00 - 22:00
@@ -407,10 +434,10 @@
                     <div class="d-flex justify-content-center col-12">
 
                         <div class="row d-flex justify-content-center my-3">
-                            <hr class="underscore-white">
-                            <h1 class="title-style01 w-100 text-center text-white">Localização</h1>
+                            <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
+                            <h1 class="title-style01 w-100 text-center text-white wow fadeInUp" data-wow-delay="0.5s">Localização</h1>
                             <div class="col-12 mx-0 text-center py-3">
-                                <span class="txt-padrao text-white">
+                                <span class="txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
                                     Av. Dom Pedro II, 169 - Centro Av. Dom Pedro II, 169 - Centro, Barueri - SP, 06401-060
                                 </span>
                                 <br>
@@ -418,16 +445,16 @@
                                     <a class="nav-link wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <span class="wow fadeInLeft d-none d-md-block">|</span> <a class="nav-link wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
                                 </span>
 
-                                <h5 class="d-none w-100 mt-3 text-center text-uppercase text-white font-weight-normal">horário de funcionamento</h5>
+                                <h5 class="d-none w-100 mt-3 text-center text-uppercase text-white font-weight-normal wow fadeInUp" data-wow-delay="0.5s">horário de funcionamento</h5>
 
-                                <span class="d-none txt-padrao text-white">
+                                <span class="d-none txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
                                     <i class="far fa-clock"></i> Seg - Sex: 7:00 - 22:00
                                     <br>
                                     <i class="far fa-clock"></i> Sáb: 8:00 - 22:00
                                 </span>
 
                             </div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.563844733197!2d-46.878678385022965!3d-23.512214384707253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03dbd6040777%3A0x6f6d03847532342b!2sAv.%20Dom%20Pedro%20II%2C%20169%20-%20Centro%2C%20Barueri%20-%20SP%2C%2006401-060!5e0!3m2!1spt-BR!2sbr!4v1604682813002!50m2!1spt-BR!2sbr" class="mt-4" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.563844733197!2d-46.878678385022965!3d-23.512214384707253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03dbd6040777%3A0x6f6d03847532342b!2sAv.%20Dom%20Pedro%20II%2C%20169%20-%20Centro%2C%20Barueri%20-%20SP%2C%2006401-060!5e0!3m2!1spt-BR!2sbr!4v1604682813002!50m2!1spt-BR!2sbr" class="mt-4" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="wow fadeInUp" data-wow-delay="0.5s"></iframe>
                         </div>
 
                     </div>
@@ -443,9 +470,11 @@
 
         </section>
 
+        <!-- FOOTER -->
+
         <footer id="footer" class="container-fluid bg-black mx-0 px-0">
 
-            <div class="mx-0 p-0 text-center">
+            <div class="mx-0 p-0 text-center wow fadeInUp" data-wow-delay="0.5s">
             
                 <ul id="redes-sociais-hide" class="nav align-items-baseline justify-content-center d-lg-none">
                     <li class="nav-item">
@@ -461,8 +490,8 @@
 
                 <span class="txt-corp text-white">Stallos Cabelereiros &copy; 2020.</span>
                 <br>
-                <a href="">
-                    <span class="txt-corp text-white">Desenvolvido por: Ollimpium Digital Marketing Agency.</span>
+                <a href="https://ollimpium.com.br/parceiros" target="_blank">
+                    <span class="txt-corp text-white wow fadeInUp" data-wow-delay="0.5s">Desenvolvido por: Ollimpium Digital Marketing Agency.</span>
                 </a>
 
             </div>
@@ -473,10 +502,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-        <script src="../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="../assets/js/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -485,38 +511,8 @@
         crossorigin="anonymous"></script>
         <script src="../assets/js/essential.js"></script>
         <script src="../assets/js/sweetalert2@9.js"></script>
-        <script>
-            $(function(){
-            $("#form-contact").submit(function(){
-                $.ajax({
-                    url: './send_mail.php',
-                    type: 'POST',
-                    data: $('#form-contact').serialize(),
-                    dataType: 'html',
-                    success: function(data){
-                        Swal.fire({
-                        position: 'center',
-                        icon: 'success',
-                        title: 'Sua mensagem foi enviada com sucesso! Agradecemos o contato e retornaremos o mais breve possível.',
-                        showConfirmButton: false,
-                        timer: 3500
-                    })
-                    },
-                    error: function(xhr){
-                        Swal.fire({
-                        position: 'center',
-                        icon: 'error',
-                        title: 'Sua mensagem não pôde ser enviada! Tente novamente agora ou mais tarde.',
-                        showConfirmButton: false,
-                        timer: 3500
-                    })
-                    }
-                })
-                this.reset()
-                return false
-            })
-            })
-            </script>
+        <script src="../assets/js/wow.min.js"></script>
+        <script src="../assets/js/wow-instance.js"></script>
 </body>
 
 </html>
