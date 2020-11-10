@@ -473,7 +473,7 @@
 
             <span class="txt-corp text-white">Stallos Cabelereiros &copy; 2020.</span>
             <br>
-            <a href="https://ollimpium.com.br/parceiros" target="_blank">
+            <a href="https://www.ollimpium.com.br/parceiros" target="_blank">
                 <span class="txt-corp text-white wow fadeInUp" data-wow-delay="0.5s">Desenvolvido por: Ollimpium Digital Marketing Agency.</span>
             </a>
 
