@@ -42,14 +42,14 @@
 <body class="theme-scroll" onload="myFunction()">
     <div class="container-fluid m-0 p-0">
         
+        <!-- PROGRESS BAR -->
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>    
+
         <!-- NAVBAR -->
 
         <nav id="menuTop" class="navbar navbar-expand-md sticky-top justify-content-md-between d-md-flex bg-white p-0 shadow width-menu">
-
-            <!-- PROGRESS BAR -->
-            <div class="progress-container">
-                <div class="progress-bar" id="myBar"></div>
-            </div>    
 
             <div class="w-100 pl-4 pl-sm-0 d-md-none text-center position-absolute" style="top: 0; z-index: 80;">
                 <img class="img-logo" src="../images/logo.png" alt="">

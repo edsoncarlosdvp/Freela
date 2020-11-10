@@ -192,13 +192,14 @@ a:hover {
 
 /* SEÇÃO CAROUSEL */
 .bg-img01-carousel {
-    background         : url('../../images/carousel/banner1.jpg') fixed no-repeat;
-    background-position: top;
-    background-size    : 100% auto;
-    min-height         : 90vh;
+    background           : url('../../images/carousel/banner1.jpg') fixed no-repeat;
+    background-position-y: 0px;
+    background-size      : 100%;
+    min-height           : 90vh;
+    background-attachment: scroll;
 }
 
-.bg-img02-carousel {
+/* .bg-img02-carousel {
     background           : url('../../images/carousel/banner2.jpg') fixed no-repeat;
     background-position-y: -220px;
     background-size      : 100%;
@@ -210,7 +211,7 @@ a:hover {
     background-position-y: -65px;
     background-size      : 100% auto;
     min-height           : 90vh;
-}
+} */
 
 .custom-caption {
     left            : 0;
