@@ -26,15 +26,15 @@
    try {
        // Inicia a classe PHPMailer
        $mail = new PHPMailer(true);
-   
+
        // Define os dados do servidor e tipo de conexão
        // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
        //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // Enable verbose debug output
        $mail->CharSet = "UTF-8";
        $mail->setLanguage('br');
-       $mail->Host = "mail.equipenovainfo.com.br"; // Endereço do servidor SMTP
-      $mail->Username = 'contato@equipenovainfo.com.br'; // Usuário do servidor SMTP
-      $mail->Password = '2013eni'; // Senha do servidor SMTP
+       $mail->Host = ""; // Endereço do servidor SMTP
+      $mail->Username = ''; // Usuário do servidor SMTP
+      $mail->Password = ''; // Senha do servidor SMTP
       $mail->Port = 587; // SMTP 465 - IMAP 993 - 587
       $mail->isSMTP();
        $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
@@ -48,9 +48,9 @@
       $mail->FromName = $nome; // Seu nome
 
       // Define os destinatário(s)
-       // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-       $mail->AddAddress("edsoncarlos@equipenovainfo.com.br");
-       //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
+         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+         $mail->AddAddress(""); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
+         //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
       //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
       // Define os dados técnicos da Mensagem
       // =-=-=-=-=-=-=-=-=-=-=1-=-=-=-=-=-=-=-=-=
@@ -102,5 +102,5 @@
       <?php
       echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
    }
-?>
-</script>
+   ?>
+   </script>

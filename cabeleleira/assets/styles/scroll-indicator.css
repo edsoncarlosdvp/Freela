@@ -6,19 +6,45 @@
    width: 100%;
    background-color: #f1f1f1;
  } */
- 
- /* The progress container (grey background) */
- .progress-container {
-   top: 0px;
-   position: absolute;
-   width: 100%;
-   height: 4px;
-   background: #b1b1b1;
- }
- 
- /* The progress bar (scroll indicator) */
- .progress-bar {
-   height: 4px;
-   background: #303030 !important;
-   width: 0%;
- }
+
+/* The progress container (grey background) */
+.progress-container {
+  top       : 0px;
+  position  : absolute;
+  width     : 100%;
+  height    : 4px;
+  background: #d6d2c1;
+
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height    : 4px;
+  background: #dac780 !important;
+  width     : 0%;
+}
+
+/* SCROLL BODY */
+.theme-scroll::-webkit-scrollbar-track {
+  width           : 6px;
+  height          : 6px;
+  background-color: #d6d2c1;
+  overflow-y      : auto;
+  overflow-x      : hidden;
+}
+
+.theme-scroll::-webkit-scrollbar {
+  width     : 6px;
+  height    : 6px;
+  background: #dac780;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.theme-scroll::-webkit-scrollbar-thumb {
+  width     : 6px;
+  height    : 6px;
+  background: #dac780;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

@@ -32,20 +32,26 @@
 
     <link rel="shortcut icon" href="../images/favicon.png"/>
     <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/scroll-indicator.css">
     <link rel="stylesheet" href="../assets/styles/animate.css">
     <link rel="stylesheet" href="../assets/styles/sweetalert2.min.css">
 
 
 </head>
 
-<body>
+<body class="theme-scroll" onload="myFunction()">
     <div class="container-fluid m-0 p-0">
         
         <!-- NAVBAR -->
 
         <nav id="menuTop" class="navbar navbar-expand-md sticky-top justify-content-md-between d-md-flex bg-white p-0 shadow width-menu">
 
-            <div class="w-100 d-md-none text-center position-absolute" style="top: 0; z-index: 80;">
+            <!-- PROGRESS BAR -->
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>    
+
+            <div class="w-100 pl-4 pl-sm-0 d-md-none text-center position-absolute" style="top: 0; z-index: 80;">
                 <img class="img-logo" src="../images/logo.png" alt="">
             </div>
             
@@ -113,76 +119,53 @@
             <div class="carousel-inner">
                 
                 <div class="carousel-item bg-img01-carousel active">
-                    <div class="carousel-caption custom-caption">
-                        <h5>Tons loiros bege</h5>
-                        <span>Invista no seu bem estar</span>
-                    </div>
-                </div>
-                <div class="carousel-item bg-img02-carousel">
-                    <div class="carousel-caption custom-caption">
-                        <h5>Studio de beleza, saúde e bem estar</h5>
-                        <span>Realize o seu sonho conosco</span>
-                    </div>
-                </div>
-                <div class="carousel-item bg-img03-carousel">
-                    <div class="carousel-caption custom-caption">
-                        <h5>Seu ruivo perfeito</h5>
-                        <span>Sua autoestima em primeiro lugar</span>
-                    </div>
+                    
                 </div>
 
             </div>
 
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Próximo</span>
-            </a>
         </div>
 
         <!-- SEÇÃO SERVIÇOS -->
 
         <section id="servicos" class="container-fluid mx-0 px-0">
 
-            <div class="d-flex flex-lg-row justify-content-center flex-wrap p-5">
+            <div class="d-flex flex-lg-row justify-content-center flex-wrap p-3 p-sm-2 p-md-5 container-servicos">
 
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around">
 
                     <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
                     <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">estética</h2>
                     <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
 
                 </div>
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-face mx-lg-0"></div>
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-face mx-lg-0"></div>
                 
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-preto mx-lg-0 d-flex flex-column justify-content-around">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-preto mx-lg-0 d-flex flex-column justify-content-around">
                     
                     <hr class="underscore-white mx-auto wow fadeInUp" data-wow-delay="0.5s">
                     <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">maquiagem</h2>
                     <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-make mx-lg-0"></div>
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-make mx-lg-0"></div>
 
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-branco mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-branco mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
                     
                     <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
                     <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
                     <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-flex flex-column d-lg-none"></div>
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-flex flex-column d-lg-none"></div>
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
                     
                     <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
                     <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
                     <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
                 </div>
-                <div class="col-12 col-md-5 col-lg-3 div-servicos bg-nails mx-lg-0 d-flex flex-column d-lg-none"></div>
+                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-nails mx-lg-0 d-flex flex-column d-lg-none"></div>
 
                 <!-- SERVIÇOS LG -->
                 <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-none d-lg-block"></div>

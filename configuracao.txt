@@ -1,0 +1,4 @@
+Guia de configuração para o formulário poder enviar emails
+
+1 => Acesse o arquivo Config.php na pasta source e preencha com os dados entre as aspas, de acordo com os comentários de cada linha
+2 => Inserir estes mesmos dados dados no arquivo send_mail.php da pasta pages. Estes também possui linhas comentadas.

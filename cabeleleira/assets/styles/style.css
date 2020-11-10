@@ -279,27 +279,27 @@ section {
 
 /* SEÇÃO SERVIÇOS */
 .bg-face {
-    background           : url('../../images/servicos/facial.jpeg') no-repeat;
-    background-size      : cover;
-    background-position-y: -30px;
+    background         : url('../../images/servicos/facial.jpeg') no-repeat;
+    background-size    : cover;
+    background-position: center;
 }
 
 .bg-make {
-    background           : url('../../images/servicos/make.jpg') no-repeat;
-    background-size      : cover;
-    background-position-y: -30px;
+    background         : url('../../images/servicos/make.jpeg') no-repeat;
+    background-size    : cover;
+    background-position: 0px -2px;
 }
 
 .bg-hair {
-    background           : url('../../images/servicos/hair.jpeg') no-repeat;
-    background-size      : cover;
-    background-position-y: -30px;
+    background         : url('../../images/servicos/hair.jpg') no-repeat;
+    background-size    : 110%;
+    background-position: -10px -11px;
 }
 
 .bg-nails {
-    background           : url('../../images/servicos/nails.jpg') no-repeat;
-    background-size      : cover;
-    background-position-y: -30px;
+    background         : url('../../images/servicos/nails.jpg') no-repeat;
+    background-size    : cover;
+    background-position: center;
 }
 
 /* SEÇÃO ESPECIAL */
@@ -458,27 +458,27 @@ div#cTestimonyInner>.text {
 
     /* SEÇÃO SERVIÇOS */
     .bg-face {
-        background           : url('../../images/servicos/facial.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -30px;
+        background         : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     .bg-make {
-        background           : url('../../images/servicos/make.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -30px;
+        background         : url('../../images/servicos/make.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: 0px -2px;
     }
 
     .bg-hair {
-        background           : url('../../images/servicos/hair.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -30px;
+        background         : url('../../images/servicos/hair.jpg') no-repeat;
+        background-size    : 120%;
+        background-position: center -11px;
     }
 
     .bg-nails {
-        background           : url('../../images/servicos/nails.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -30px;
+        background         : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 }
 
@@ -490,28 +490,36 @@ div#cTestimonyInner>.text {
     }
 
     /* SEÇÃO SERVIÇOS */
+
+    .div-servicos {
+        width     : auto;
+        height    : 275px;
+        margin    : 0px 0px;
+        text-align: center;
+    }
+
     .bg-face {
-        background           : url('../../images/servicos/facial.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     .bg-make {
-        background           : url('../../images/servicos/make.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/make.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: 0px -90px;
     }
 
     .bg-hair {
-        background           : url('../../images/servicos/hair.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/hair.jpg') no-repeat;
+        background-size    : 100%;
+        background-position: center -5px;
     }
 
     .bg-nails {
-        background           : url('../../images/servicos/nails.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     /* SEÇÃO DEPOIMENTOS */
@@ -534,37 +542,52 @@ div#cTestimonyInner>.text {
         padding-left : 2px !important;
         padding-right: 2px !important;
     }
+
+    /* SEÇÃO SERVIÇOS */
+    .bg-make {
+        background         : url('../../images/servicos/make.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: 0px -50px;
+    }
 }
 
 @media (max-width: 768px) {
     .img-logo {
-        width    : 120px;
-        max-width: 200px;
+        width    : 100px;
+        max-width: 150px;
     }
 
     /* SEÇÃO SERVIÇOS */
+
+    .div-servicos {
+        width     : auto;
+        height    : 275px;
+        margin    : 0px 0px;
+        text-align: center;
+    }
+
     .bg-face {
-        background           : url('../../images/servicos/facial.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     .bg-make {
-        background           : url('../../images/servicos/make.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/make.jpeg') no-repeat;
+        background-size    : 100%;
+        background-position: center -30px;
     }
 
     .bg-hair {
-        background           : url('../../images/servicos/hair.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/hair.jpg') no-repeat;
+        background-size    : 100%;
+        background-position: center -5px;
     }
 
     .bg-nails {
-        background           : url('../../images/servicos/nails.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     /* SEÇÃO DEPOIMENTOS */
@@ -582,33 +605,45 @@ div#cTestimonyInner>.text {
 
 @media(max-width: 578px) {
     .img-logo {
-        width    : 110px;
-        max-width: 200px;
+        width    : 100px;
+        max-width: 150px;
     }
 
     /* SEÇÃO SERVIÇOS */
+
+    .container-servicos {
+        padding: 60px !important;
+    }
+
+    .div-servicos {
+        width     : auto;
+        height    : 300px;
+        margin    : 0px 5px;
+        text-align: center;
+    }
+
     .bg-face {
-        background           : url('../../images/servicos/facial.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     .bg-make {
-        background           : url('../../images/servicos/make.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/make.jpeg') no-repeat;
+        background-size    : 100%;
+        background-position: center -30px;
     }
 
     .bg-hair {
-        background           : url('../../images/servicos/hair.jpeg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/hair.jpg') no-repeat;
+        background-size    : 100%;
+        background-position: center -5px;
     }
 
     .bg-nails {
-        background           : url('../../images/servicos/nails.jpg') no-repeat;
-        background-size      : cover;
-        background-position-y: -70px;
+        background         : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size    : cover;
+        background-position: center;
     }
 
     /* SEÇÃO ESPECIAL */
@@ -648,6 +683,61 @@ div#cTestimonyInner>.text {
 }
 
 @media(max-width: 500px) {
+
+    /* NAVBAR */
+    .fa-facebook-f,
+    .fa-instagram,
+    .fa-twitter {
+        display  : block;
+        padding  : 10px 10px;
+        margin   : 0 5px;
+        font-size: 15px;
+    }
+
+    .fa-facebook-f {
+        padding: 10px 13px;
+    }
+
+    #redes-sociais-hide a>i {
+        font-size: 10pt !important;
+    }
+
+    /* SEÇÃO SERVIÇOS */
+
+    .container-servicos {
+        padding: 1rem !important;
+    }
+
+    .div-servicos {
+        width     : auto;
+        height    : 370px;
+        margin    : 0px 5px;
+        text-align: center;
+    }
+
+    .bg-face {
+        background           : url('../../images/servicos/facial.jpeg') no-repeat;
+        background-size      : cover;
+        background-position-y: center;
+    }
+
+    .bg-make {
+        background         : url('../../images/servicos/make.jpeg') no-repeat;
+        background-size    : cover;
+        background-position: center -50px;
+    }
+
+    .bg-hair {
+        background           : url('../../images/servicos/hair.jpg') no-repeat;
+        background-size      : cover;
+        background-position-y: -50px;
+    }
+
+    .bg-nails {
+        background         : url('../../images/servicos/nails.jpg') no-repeat;
+        background-size    : cover;
+        background-position: center;
+    }
 
     /* SEÇÃO ESPECIAL */
     .initial-price {
