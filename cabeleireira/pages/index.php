@@ -119,8 +119,8 @@
 
                 <div class="carousel-inner">
                     
-                    <div class="carousel-item bg-img01-carousel active">
-                        
+                    <div class="carousel-item active">
+                        <img src="../images/carousel/banner1-xl.jpg" class="d-block w-100" alt="">
                     </div>
 
                 </div>
