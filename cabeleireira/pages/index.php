@@ -133,61 +133,76 @@
 
         <section id="servicos" class="container-fluid mx-0 px-0 py-0">
 
-            <div class="d-flex flex-lg-row justify-content-center flex-wrap p-3 p-sm-2 p-md-5 container-servicos">
+            <div class="d-flex flex-lg-row justify-content-center flex-wrap p-3 p-sm-2 p-md-5 content-servicos">
 
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around">
+            <div class="content-servico flex-column mx-3 mb-3">
 
-                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">estética</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
+                <div class="degrade">
 
-                </div>
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-face mx-lg-0"></div>
-                
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-preto mx-lg-0 d-flex flex-column justify-content-around">
-                    
-                    <hr class="underscore-white mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">maquiagem</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
-                    
-                </div>
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-make mx-lg-0"></div>
-
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-branco mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
-                    
-                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
-                    
-                </div>
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-flex flex-column d-lg-none"></div>
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-flex flex-column justify-content-around d-lg-none">
-                    
-                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
-                    
-                </div>
-                <div class="col-12 col-sm-5 col-md-5 col-lg-3 div-servicos bg-nails mx-lg-0 d-flex flex-column d-lg-none"></div>
-
-                <!-- SERVIÇOS LG -->
-                <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-hair mx-lg-0 d-none d-lg-block"></div>
-                <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-servicos-branco mx-lg-0 d-none flex-column justify-content-around d-lg-flex">
-                    
-                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
-                    
-                </div>
-                <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-nails mx-lg-0 d-none d-lg-block"></div>
-                <div class="col-12 mt-n1 col-md-5 col-lg-3 div-servicos bg-servicos-bege mx-lg-0 d-none flex-column justify-content-around d-lg-flex">
-                    
-                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
-                    <h2 class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
-                    <a href="https://wa.me/5511973454151" class="text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
-                    
+                    <div class="div-servicos bg-face d-flex flex-column justify-content-end">
+        
+                        <h2 class="text-white text-uppercase wow fadeInUp mb-3" data-wow-delay="0.5s">estética</h2>
+                        
+                    </div>
                 </div>
 
+                <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
+                    
+            </div>    
+                <div class="content-servico flex-column mx-3 mb-3">
+
+                    <div class="degrade">
+                        <div class="div-servicos bg-make d-flex flex-column justify-content-end">
+                            
+                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">maquiagem</h2>
+                            
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
+
+                </div>
+
+                <div class="content-servico flex-column mx-3 mb-3">
+
+                    <div class="degrade">
+                        <div class="div-servicos bg-hair d-flex flex-column justify-content-end">
+                            
+                            
+                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
+                            
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
+
+                </div>
+                <div class="content-servico flex-column mx-3 mb-3">
+
+                    <div class="degrade">
+                        <div class="div-servicos bg-nails d-flex flex-column justify-content-end">
+                            
+                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
+                            
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
+
+                </div>
+                <div class="content-servico flex-column mx-3 mb-3">
+
+                    <div class="degrade">
+                        
+                        <div class="div-servicos bg-hair d-flex flex-column justify-content-end">
+                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
+                        </div>
+                        
+                    </div>
+
+                    <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
+    
+                </div>
             </div>
 
         </section>
@@ -197,7 +212,7 @@
         <section id="especial" class="container-fluid align-content-center d-inline-flex bg-especial py-4">
             <div class="col-12 col-md-8 col-xl-6 mx-md-auto bg-servicos-preto">
                     
-                <hr class="underscore-white mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                
                 <h2 class="text-center title-style01 wow fadeInUp" data-wow-delay="0.5s">Especial da Estação</h2>
                 
                 <table class="table text-white table-borderless wow fadeIn" data-wow-delay="0.7">
@@ -277,8 +292,7 @@
         <section id="depoimentos" class="container-fluid mx-0 px-0">
 
             <div class="container-fluid">
-                <div class="w-100 text-center my-3 mx-0">
-                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
+                <div
                     <h1 class="title-style01 mb-n3 wow fadeInUp" data-wow-delay="0.5s">Depoimentos</h1>
                 </div>
 
