@@ -142,7 +142,7 @@
 
                     <div class="div-servicos bg-face d-flex flex-column justify-content-end">
         
-                        <h2 class="text-white text-uppercase wow fadeInUp mb-3" data-wow-delay="0.5s">estética</h2>
+                        <h2 class="text-white txt-effect text-uppercase wow fadeInUp" data-wow-delay="0.5s">estética</h2>
                         
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                     <div class="degrade">
                         <div class="div-servicos bg-make d-flex flex-column justify-content-end">
                             
-                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">maquiagem</h2>
+                            <h2 class="text-white txt-effect text-uppercase wow fadeInUp" data-wow-delay="0.5s">maquiagem</h2>
                             
                         </div>
                     </div>
@@ -170,7 +170,7 @@
                         <div class="div-servicos bg-hair d-flex flex-column justify-content-end">
                             
                             
-                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
+                            <h2 class="text-white txt-effect text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
                             
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                     <div class="degrade">
                         <div class="div-servicos bg-nails d-flex flex-column justify-content-end">
                             
-                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
+                            <h2 class="text-white txt-effect text-uppercase wow fadeInUp" data-wow-delay="0.5s">unhas</h2>
                             
                         </div>
                     </div>
@@ -195,10 +195,11 @@
 
                     <div class="degrade">
                         
-                        <div class="div-servicos bg-hair-male d-flex flex-column justify-content-end">
-                            <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
+                        <div class="div-servicos d-flex flex-column justify-content-end bg-hair-male">
+                            <h2 class="text-white txt-effect text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
                         </div>
                         
+
                     </div>
 
                     <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>

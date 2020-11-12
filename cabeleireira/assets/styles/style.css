@@ -28,6 +28,11 @@
     color: #000000;
 }
 
+.txt-effect {
+    text-shadow  : -2px 2px 1px #000000;
+    margin-bottom: 36px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -296,35 +301,35 @@ section {
     background-image   : url('../../images/servicos/facial.jpeg');
     background-size    : cover;
     background-position: center;
-    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
 }
 
 .bg-make {
     background         : url('../../images/servicos/make.jpeg') no-repeat;
     background-size    : cover;
     background-position: 0px -2px;
-    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
 }
 
 .bg-hair {
     background         : url('../../images/servicos/hair.jpg') no-repeat;
     background-size    : 110%;
     background-position: -10px -11px;
-    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
 }
 
 .bg-hair-male {
     background         : url('../../images/servicos/hair-male.jpg') no-repeat;
     background-size    : cover;
     background-position: center;
-    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
 }
 
 .bg-nails {
     background         : url('../../images/servicos/nails.jpg') no-repeat;
     background-size    : cover;
     background-position: center;
-    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+    -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
 }
 
 /* SEÇÃO ESPECIAL */
@@ -516,28 +521,28 @@ div#cTestimonyInner>.text {
         background         : url('../../images/servicos/facial.jpeg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-make {
         background         : url('../../images/servicos/make.jpeg') no-repeat;
         background-size    : cover;
         background-position: 0px -2px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-hair {
         background         : url('../../images/servicos/hair.jpg') no-repeat;
         background-size    : 120%;
         background-position: center -11px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-nails {
         background         : url('../../images/servicos/nails.jpg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     /* SEÇÃO ESPECIAIS */
@@ -578,28 +583,28 @@ div#cTestimonyInner>.text {
         background         : url('../../images/servicos/facial.jpeg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-make {
         background         : url('../../images/servicos/make.jpeg') no-repeat;
         background-size    : cover;
         background-position: 0px -90px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-hair {
         background         : url('../../images/servicos/hair.jpg') no-repeat;
         background-size    : 100%;
         background-position: center -5px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-nails {
         background         : url('../../images/servicos/nails.jpg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     /* SEÇÃO DEPOIMENTOS */
@@ -675,28 +680,28 @@ div#cTestimonyInner>.text {
         background         : url('../../images/servicos/facial.jpeg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-make {
         background         : url('../../images/servicos/make.jpeg') no-repeat;
         background-size    : 100%;
         background-position: center -30px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-hair {
         background         : url('../../images/servicos/hair.jpg') no-repeat;
         background-size    : 100%;
         background-position: center -5px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-nails {
         background         : url('../../images/servicos/nails.jpg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     /* SEÇÃO ESPECIAIS */
@@ -753,28 +758,28 @@ div#cTestimonyInner>.text {
         background         : url('../../images/servicos/facial.jpeg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-make {
         background         : url('../../images/servicos/make.jpeg') no-repeat;
         background-size    : 100%;
         background-position: center -30px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-hair {
         background         : url('../../images/servicos/hair.jpg') no-repeat;
         background-size    : 100%;
         background-position: center -5px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-nails {
         background         : url('../../images/servicos/nails.jpg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     /* SEÇÃO ESPECIAL */
@@ -848,28 +853,28 @@ div#cTestimonyInner>.text {
         background           : url('../../images/servicos/facial.jpeg') no-repeat;
         background-size      : cover;
         background-position-y: center;
-        -webkit-mask-image   : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image   : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-make {
         background         : url('../../images/servicos/make.jpeg') no-repeat;
         background-size    : cover;
         background-position: center -50px;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-hair {
         background           : url('../../images/servicos/hair.jpg') no-repeat;
         background-size      : cover;
         background-position-y: -50px;
-        -webkit-mask-image   : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image   : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     .bg-nails {
         background         : url('../../images/servicos/nails.jpg') no-repeat;
         background-size    : cover;
         background-position: center;
-        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%);
+        -webkit-mask-image : linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 15%);
     }
 
     /* SEÇÃO ESPECIAL */
