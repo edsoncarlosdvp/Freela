@@ -18,7 +18,6 @@
 .title-style01 {
     font-family: 'Great Vibes', cursive, sans-serif;
     font-size  : 50px;
-    text-align : center;
 }
 
 .title-price2 {
@@ -251,13 +250,10 @@ section {
     display         : block;
     background-color: #DAC780;
     padding         : 10px;
-    background      : rgb(202, 143, 8);
-    background      : linear-gradient(180deg, rgba(202, 143, 8, 1) 0%, rgba(211, 175, 44, 1) 50%, rgba(202, 143, 8, 1) 100%);
 }
 
 .btn-agendar:hover {
-    background        : rgba(211, 175, 44, 1);
-    background        : linear-gradient(180deg, rgba(211, 175, 44, 1) 100%, rgba(202, 143, 8, 1) 0%, rgba(211, 175, 44, 1) 100%);
+    background-color  : #d3ba60;
     -webkit-transition: all 0.2s ease-out 0s;
     transition        : all 0.2s ease-out 0s;
     -moz-transition   : all 0.2s ease-out 0s;

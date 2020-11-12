@@ -211,8 +211,8 @@
 
         <section id="especial" class="container-fluid align-content-center d-inline-flex bg-especial py-4">
             <div class="col-12 col-md-8 col-xl-6 mx-md-auto py-3 bg-servicos-preto">
-                    
                 
+                <hr class="underscore-white mx-auto wow fadeInUp" data-wow-delay="0.5s">
                 <h2 class="text-center title-style01 wow fadeInUp" data-wow-delay="0.5s">Especial da Estação</h2>
                 
                 <table class="table text-white table-borderless wow fadeIn" data-wow-delay="0.7">
@@ -292,8 +292,9 @@
 
         <section id="depoimentos" class="container-fluid mx-0 px-0">
 
-            <div class="container-fluid">
-                <div>
+            <div class="container-fluid justify-content-center">
+                <div class="w-100 text-center my-3 mx-0">
+                    <hr class="underscore-black mx-auto wow fadeInUp" data-wow-delay="0.5s">
                     <h1 class="title-style01 mb-n3 wow fadeInUp" data-wow-delay="0.5s">Depoimentos</h1>
                 </div>
 
@@ -374,7 +375,6 @@
                     
                     <div class="row d-flex justify-content-center my-3">
                         <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
-                        <hr class="underscore-white wow fadeInUp" data-wow-delay="0.5s">
                         <h1 class="title-style01 w-100 text-center text-white wow fadeInUp" data-wow-delay="0.5s">Faça uma visita</h1>
 
                         <div class="col-12 mx-0 text-center py-3">
@@ -383,7 +383,8 @@
                         </span>
                         <br>
                         <span class="d-lg-none txt-padrao text-white wow fadeInUp" data-wow-delay="0.5s">
-                            <a class="nav-link wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a> <span class="wow fadeInLeft d-none d-md-block">|</span> <a class="nav-link wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
+                            <a class="nav-link wow fadeInLeft"ref="https://wa.me/5511973454151" target="_blank"><i class="fab fa-whatsapp mr-2"></i>(11) 97345-4151</a>
+                            <a class="nav-link wow fadeInRight"ref="mailto:atendimento@stalloscabeleireiros.com.br"><i class="far fa-envelope mr-2"></i>atendimento@stalloscabeleireiros.com.br</a>
                         </span>
 
                         <h5 class="w-100 mt-3 mt-lg-n4 text-center text-white text-uppercase font-weight-normal wow fadeInUp" data-wow-delay="0.5s">horário de funcionamento</h5>
