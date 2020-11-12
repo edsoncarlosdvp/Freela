@@ -253,6 +253,15 @@ section {
     padding         : 10px;
 }
 
+.btn-agendar:hover {
+    background-color  : #d3ba60;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition        : all 0.2s ease-out 0s;
+    -moz-transition   : all 0.2s ease-out 0s;
+    -ms-transition    : all 0.2s ease-out 0s;
+    -o-transition     : all 0.2s ease-out 0s;
+}
+
 /* BACKGROUND */
 .bg-black {
     background-color: #000000;
