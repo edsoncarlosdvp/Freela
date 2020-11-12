@@ -30,7 +30,8 @@
     <meta name="rating" content="general" />
     <meta name="robots" content="follow" />
 
-    <link rel="shortcut icon" href="../images/favicon.png"/>
+    <!-- STYLES -->
+    <link rel="shortcut icon" href="../images/favicon.ico"/>
     <link rel="stylesheet" href="../assets/styles/style.css">
     <link rel="stylesheet" href="../assets/styles/scroll-indicator.css">
     <link rel="stylesheet" href="../assets/styles/animate.css">
