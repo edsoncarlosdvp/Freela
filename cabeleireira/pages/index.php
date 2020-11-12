@@ -135,7 +135,7 @@
 
             <div class="d-flex flex-lg-row justify-content-center flex-wrap p-3 p-sm-2 p-md-5 content-servicos">
 
-            <div class="content-servico flex-column mx-3 mb-3">
+            <div class="content-servico flex-column mb-3">
 
                 <div class="degrade">
 
@@ -149,7 +149,7 @@
                 <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
                     
             </div>    
-                <div class="content-servico flex-column mx-3 mb-3">
+                <div class="content-servico flex-column mb-3">
 
                     <div class="degrade">
                         <div class="div-servicos bg-make d-flex flex-column justify-content-end">
@@ -163,7 +163,7 @@
 
                 </div>
 
-                <div class="content-servico flex-column mx-3 mb-3">
+                <div class="content-servico flex-column mb-3">
 
                     <div class="degrade">
                         <div class="div-servicos bg-hair d-flex flex-column justify-content-end">
@@ -177,7 +177,7 @@
                     <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
 
                 </div>
-                <div class="content-servico flex-column mx-3 mb-3">
+                <div class="content-servico flex-column mb-3">
 
                     <div class="degrade">
                         <div class="div-servicos bg-nails d-flex flex-column justify-content-end">
@@ -190,11 +190,11 @@
                     <a href="https://wa.me/5511973454151" class="btn btn-agendar mt-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">agende já ></a>
 
                 </div>
-                <div class="content-servico flex-column mx-3 mb-3">
+                <div class="content-servico flex-column mb-3">
 
                     <div class="degrade">
                         
-                        <div class="div-servicos bg-hair d-flex flex-column justify-content-end">
+                        <div class="div-servicos bg-hair-male d-flex flex-column justify-content-end">
                             <h2 class="mb-3 text-white text-uppercase wow fadeInUp" data-wow-delay="0.5s">cabelo</h2>
                         </div>
                         
@@ -210,7 +210,7 @@
         <!-- SEÇÃO ESPECIAL -->
 
         <section id="especial" class="container-fluid align-content-center d-inline-flex bg-especial py-4">
-            <div class="col-12 col-md-8 col-xl-6 mx-md-auto bg-servicos-preto">
+            <div class="col-12 col-md-8 col-xl-6 mx-md-auto py-3 bg-servicos-preto">
                     
                 
                 <h2 class="text-center title-style01 wow fadeInUp" data-wow-delay="0.5s">Especial da Estação</h2>
@@ -275,9 +275,10 @@
                         </tr>
                     </tbody>
                     
-                    <caption class="text-caption-nota">Confira todos nossos serviços através do Instagram e Whatsapp
-                        <br>
+                    <caption class="text-caption-nota">
                         <span class="text-caption">*Valores à partir</span>
+                        <br>
+                        Confira todos nossos serviços através do Instagram e Whatsapp
                     </caption>
                 </table>
                 
@@ -292,7 +293,7 @@
         <section id="depoimentos" class="container-fluid mx-0 px-0">
 
             <div class="container-fluid">
-                <div
+                <div>
                     <h1 class="title-style01 mb-n3 wow fadeInUp" data-wow-delay="0.5s">Depoimentos</h1>
                 </div>
 
@@ -366,7 +367,7 @@
 
         <!-- CONTATO -->
 
-        <section id="contato" class="container-fluid bg-contato">
+        <section id="contato" class="container-fluid bg-contato my-0">
 
             <div class="row flex-wrap flex-md-nowrap pl-md-0 bg-black">
                 <div class="col-12 col-lg-6">
@@ -475,7 +476,7 @@
 
     <!-- FOOTER -->
 
-    <footer id="footer" class="container-fluid bg-black mx-0 px-0">
+    <footer id="footer" class="container-fluid bg-black mx-0 px-0 py-3">
 
         <div class="mx-0 p-0 text-center wow fadeInUp" data-wow-delay="0.5s">
         
