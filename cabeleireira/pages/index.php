@@ -31,7 +31,7 @@
     <meta name="robots" content="follow" />
 
     <!-- STYLES -->
-    <link rel="shortcut icon" href="../images/favicon.ico"/>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="../assets/styles/style.css">
     <link rel="stylesheet" href="../assets/styles/scroll-indicator.css">
     <link rel="stylesheet" href="../assets/styles/animate.css">
