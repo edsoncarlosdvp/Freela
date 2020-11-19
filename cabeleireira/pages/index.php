@@ -80,8 +80,8 @@
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarTop">
                 <ul class="navbar-nav text-center mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-item nav-link text-uppercase scroll active" href="#aTop">home</a>
+                    <li class="nav-item">
+                        <a id="aTop" class="nav-item nav-link text-uppercase scroll" href="#aTop">home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-item nav-link text-uppercase scroll" href="#servicos">serviços</a>
@@ -90,7 +90,7 @@
                         <a class="nav-item nav-link text-uppercase scroll" href="#especial">especiais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-item nav-link text-uppercase scroll" href="https://wa.me/5511973454151">agende online</a>
+                        <a class="nav-item nav-link text-uppercase" href="https://wa.me/5511973454151">agende online</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-item nav-link text-uppercase scroll" href="#contato">contato</a>

@@ -32,9 +32,9 @@
        //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // Enable verbose debug output
        $mail->CharSet = "UTF-8";
        $mail->setLanguage('br');
-       $mail->Host = ""; // Endereço do servidor SMTP
-      $mail->Username = ''; // Usuário do servidor SMTP
-      $mail->Password = ''; // Senha do servidor SMTP
+       $mail->Host = "mail.stalloscabeleireiros.com.br"; // Endereço do servidor SMTP
+      $mail->Username = 'envio@stalloscabeleireiros.com.br'; // Usuário do servidor SMTP
+      $mail->Password = 'stal@envio@'; // Senha do servidor SMTP
       $mail->Port = 587; // SMTP 465 - IMAP 993 - 587
       $mail->isSMTP();
        $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
@@ -49,7 +49,7 @@
 
       // Define os destinatário(s)
          // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-         $mail->AddAddress(""); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
+         $mail->AddAddress("envio@stalloscabeleireiros.com.br"); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
          //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
       //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
       // Define os dados técnicos da Mensagem
