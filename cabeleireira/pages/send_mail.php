@@ -3,10 +3,10 @@
 <script src="../assets/js/sweetalert2@9.js"></script>
 
 <style>
-   body{
-      background-color: #00000005 !important;
-      font-size: 12pt !important;
-   }
+body {
+    background-color: #00000005 !important;
+    font-size: 12pt !important;
+}
 </style>
 <?php
    require_once("../vendor/autoload.php");
@@ -35,7 +35,7 @@
        $mail->Host = "mail.stalloscabeleireiros.com.br"; // Endereço do servidor SMTP
       $mail->Username = 'envio@stalloscabeleireiros.com.br'; // Usuário do servidor SMTP
       $mail->Password = 'stal@envio@'; // Senha do servidor SMTP
-      $mail->Port = 587; // SMTP 465 - IMAP 993 - 587
+      $mail->Port = 465; // SMTP 465 - IMAP 993 - 587
       $mail->isSMTP();
        $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
        $mail->SMTPSecure = 'tls';
@@ -74,33 +74,32 @@
        // Limpa os destinatários e os anexos
        $mail->ClearAllRecipients();
        // FIM DO ENVIO DE EMAIL?>
-      <script>
-         $(document).ready(function(){
-            Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: '<?php echo $nome.". <br>"; ?> <?php echo "Enviada com sucesso!"; ?>',
-            showConfirmButton: false,
-            timer: 6000
-            })
-         })
-      
-      </script>
-      <?php
+<script>
+$(document).ready(function() {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: '<?php echo $nome.". <br>"; ?> <?php echo "Enviada com sucesso!"; ?>',
+        showConfirmButton: false,
+        timer: 6000
+    })
+})
+</script>
+<?php
    } catch (Exception $e) {?>
-      <script>
-         $(document).ready(function(){
-            Swal.fire({
-            position: 'center',
-            icon: 'error',
-            title: '<?php echo $nome.". <br>";?> <?php echo "Sua mensagem não pôde ser enviada! Tente novamente agora ou mais tarde. ";?>',
-            showConfirmButton: false,
-            timer: 6000
-            })
-         })
-      </script>
-      <?php
+<script>
+$(document).ready(function() {
+    Swal.fire({
+        position: 'center',
+        icon: 'error',
+        title: '<?php echo $nome.". <br>";?> <?php echo "Sua mensagem não pôde ser enviada! Tente novamente agora ou mais tarde. ";?>',
+        showConfirmButton: false,
+        timer: 6000
+    })
+})
+</script>
+<?php
       echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
    }
    ?>
-   </script>
+</script>
