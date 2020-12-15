@@ -3,10 +3,10 @@
 <script src="../assets/js/sweetalert2@9.js"></script>
 
 <style>
-   body{
-      background-color: #00000005 !important;
-      font-size: 12pt !important;
-   }
+body {
+    background-color: #00000005 !important;
+    font-size: 12pt !important;
+}
 </style>
 <?php
    require_once("../vendor/autoload.php");
@@ -32,9 +32,9 @@
        //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // Enable verbose debug output
        $mail->CharSet = "UTF-8";
        $mail->setLanguage('br');
-       $mail->Host = ""; // Endereço do servidor SMTP
-      $mail->Username = ''; // Usuário do servidor SMTP
-      $mail->Password = ''; // Senha do servidor SMTP
+       $mail->Host = "mail.equipenovainfo.com.br"; // Endereço do servidor SMTP
+      $mail->Username = 'contato@equipenovainfo.com.br'; // Usuário do servidor SMTP
+      $mail->Password = '2013eni'; // Senha do servidor SMTP
       $mail->Port = 587; // SMTP 465 - IMAP 993 - 587
       $mail->isSMTP();
        $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
@@ -48,9 +48,9 @@
       $mail->FromName = $nome; // Seu nome
 
       // Define os destinatário(s)
-         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-         $mail->AddAddress(""); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
-         //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
+        // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        $mail->AddAddress("edsoncarlos@equipenovainfo.com.br"); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
+        //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
       //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
       // Define os dados técnicos da Mensagem
       // =-=-=-=-=-=-=-=-=-=-=1-=-=-=-=-=-=-=-=-=
@@ -58,7 +58,7 @@
       //  $mail->CharSet = 'iso-8859-1'; // Charset da mensagem (opcional)
       // Define a mensagem (Texto e Assunto)
       // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-      //$mail->Subject = $assunto; // Assunto da mensagem
+      $mail->Subject = "Stallos"; // Assunto da mensagem
       //Read an HTML message body from an external file, convert referenced images to embedded,
       //convert HTML into a basic plain-text alternative body
       // $mail->msgHTML(FILE_USE_require_once_ATH('contents.html', 1));
@@ -74,33 +74,32 @@
        // Limpa os destinatários e os anexos
        $mail->ClearAllRecipients();
        // FIM DO ENVIO DE EMAIL?>
-      <script>
-         $(document).ready(function(){
-            Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: '<?php echo $nome.". <br>"; ?> <?php echo "Enviada com sucesso!"; ?>',
-            showConfirmButton: false,
-            timer: 6000
-            })
-         })
-      
-      </script>
-      <?php
+<script>
+$(document).ready(function() {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: '<?php echo $nome.". <br>"; ?> <?php echo "Enviada com sucesso!"; ?>',
+        showConfirmButton: false,
+        timer: 6000
+    })
+})
+</script>
+<?php
    } catch (Exception $e) {?>
-      <script>
-         $(document).ready(function(){
-            Swal.fire({
-            position: 'center',
-            icon: 'error',
-            title: '<?php echo $nome.". <br>";?> <?php echo "Sua mensagem não pôde ser enviada! Tente novamente agora ou mais tarde. ";?>',
-            showConfirmButton: false,
-            timer: 6000
-            })
-         })
-      </script>
-      <?php
+<script>
+$(document).ready(function() {
+    Swal.fire({
+        position: 'center',
+        icon: 'error',
+        title: '<?php echo $nome.". <br>";?> <?php echo "Sua mensagem não pôde ser enviada! Tente novamente agora ou mais tarde. ";?>',
+        showConfirmButton: false,
+        timer: 6000
+    })
+})
+</script>
+<?php
       echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
    }
    ?>
-   </script>
+</script>
