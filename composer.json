@@ -1,0 +1,28 @@
+{
+    "name": "ollimpium/stallos",
+    "description": "Site da Stallos cabeleireiros desenvolvido em parceria",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Equipe Nova Info",
+            "email": "contato@equipenovainfo.com.br",
+            "homepage": "http://www.equipenovainfo.com.br"
+        }
+    ],
+    "config": {
+       "vendor-dir": "vendor"
+    },
+    "autoload": {
+       "psr-4":{
+          "Source\\": "source/" 
+       },
+       "files": [
+          "source/Config.php"
+       ]
+    },
+    "require": {
+       "phpmailer/phpmailer": "6.0.*",
+        "php": ">=5.2.8"
+    }
+ }

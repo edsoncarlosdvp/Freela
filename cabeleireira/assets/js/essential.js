@@ -62,7 +62,7 @@ function myFunction() {
 $(function () {
     $("#form-contact").submit(function () {
         $.ajax({
-            url: './send_mail.php',
+            url: 'send_mail.php',
             type: 'POST',
             data: $('#form-contact').serialize(),
             dataType: 'html',
