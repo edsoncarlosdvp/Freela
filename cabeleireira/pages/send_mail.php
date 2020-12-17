@@ -35,10 +35,15 @@ body {
        $mail->Host = "mail.equipenovainfo.com.br"; // Endereço do servidor SMTP
       $mail->Username = 'contato@equipenovainfo.com.br'; // Usuário do servidor SMTP
       $mail->Password = ''; // Senha do servidor SMTP
-      $mail->Port = 587; // SMTP 465 - IMAP 993 - 587
+      $mail->Port = 465; // SMTP 465 - IMAP 993 - 587
       $mail->isSMTP();
        $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
+<<<<<<< HEAD
        $mail->SMTPSecure = 'tls'; //PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS`
+=======
+       $mail->SMTPSecure = 'ssl';
+       //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS`
+>>>>>>> cliente
        $mail->Priority = 1;
       
        // Define o remetente
@@ -47,9 +52,15 @@ body {
       $mail->FromName = $nome; // Seu nome
 
       // Define os destinatário(s)
+<<<<<<< HEAD
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
         $mail->AddAddress("envio@stalloscabeleireiros.com.br"); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
       // $mail->AddCC('envio@stalloscabeleireiros.com.br', 'Stallos'); // Copia
+=======
+         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+         $mail->AddAddress("envio@stalloscabeleireiros.com.br"); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
+         //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
+>>>>>>> cliente
       //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
       // Define os dados técnicos da Mensagem
       // =-=-=-=-=-=-=-=-=-=-=1-=-=-=-=-=-=-=-=-=
