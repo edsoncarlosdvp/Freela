@@ -32,13 +32,13 @@ body {
        //$mail->SMTPDebug = SMTP::DEBUG_SERVER; // Enable verbose debug output
        $mail->CharSet = "UTF-8";
        $mail->setLanguage('br');
-       $mail->Host = "mail.stalloscabeleireiros.com.br"; // Endereço do servidor SMTP
-      $mail->Username = 'envio@stalloscabeleireiros.com.br'; // Usuário do servidor SMTP
-      $mail->Password = 'stal@envio@'; // Senha do servidor SMTP
+       $mail->Host = ""; // Endereço do servidor SMTP
+      $mail->Username = ''; // Usuário do servidor SMTP
+      $mail->Password = ''; // Senha do servidor SMTP
       $mail->Port = 465; // SMTP 465 - IMAP 993 - 587
       $mail->isSMTP();
        $mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
-       $mail->SMTPSecure = 'tls';
+       $mail->SMTPSecure = 'ssl';
        //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS`
        $mail->Priority = 1;
       
