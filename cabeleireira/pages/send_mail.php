@@ -49,7 +49,7 @@ body {
 
       // Define os destinatário(s)
          // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-         $mail->AddAddress("envio@stalloscabeleireiros.com.br"); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
+         $mail->AddAddress(""); // ENDEREÇO DE EMAIL QUE RECEBERÁ A MENSAGEM
          //$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
       //$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
       // Define os dados técnicos da Mensagem
