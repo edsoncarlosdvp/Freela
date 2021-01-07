@@ -463,6 +463,10 @@ div#cTestimonyInner>.text {
     padding: 10px 15px;
 }
 
+ul#redes-sociais-hide {
+    z-index: 90;
+}
+
 #redes-sociais-footer a>i {
     font-size: 17px !important;
 }
