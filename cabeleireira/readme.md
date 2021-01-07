@@ -10,6 +10,6 @@
 <p>HTML5, CSS3, JS, BOOTSTRAP 4 e PHP</p>
 <br>
 |<h3>Este projeto pode ser visualizado no link abaixo</h3>
- <p>Projeto disponibilizado na minha hospedagem</p><a href="equipenovainfo.com.br/stallos">equipenovainfo.com.br/stallos</a>
+ <p>Projeto disponibilizado na minha hospedagem</p><a href="http://www.equipenovainfo.com.br/stallos">equipenovainfo.com.br/stallos</a>
  <br>
- <p>Link para o domínio oficial do projeto</p><a href="stalloscabeleireiros.com.br">stalloscabeleireiros.com.br</a>
+ <p>Link para o domínio oficial do projeto</p><a href="http://www.stalloscabeleireiros.com.br">stalloscabeleireiros.com.br</a>
